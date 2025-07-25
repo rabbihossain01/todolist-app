@@ -1,50 +1,62 @@
-# Welcome to your Expo app 👋
+# Todo List App - React Native Learning Project
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## বাংলা বর্ণনা (Bengali Description)
 
-## Get started
+এই প্রজেক্টটি React Native শেখার জন্য তৈরি করা হয়েছে। এখানে আপনি একটি সহজ Todo List অ্যাপ তৈরি করতে পারবেন এবং ধাপে ধাপে React Native এর বিভিন্ন ফিচার শিখতে পারবেন।
 
-1. Install dependencies
+### কী আছে এই অ্যাপে:
+- ✅ Todo আইটেম যোগ করা
+- ✅ Todo আইটেম সম্পূর্ণ করা (টিক মার্ক)
+- ✅ Todo আইটেম মুছে ফেলা
+- ✅ মোট এবং সম্পূর্ণ Todo এর সংখ্যা দেখা
+- 📚 React Native শেখার গাইড
 
-   ```bash
-   npm install
-   ```
-
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
+### কীভাবে চালু করবেন:
 ```bash
-npm run reset-project
+npm start
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## English Description
 
-## Learn more
+This project is designed for learning React Native. Here you can build a simple Todo List app and learn various React Native features step by step.
 
-To learn more about developing your project with Expo, look at the following resources:
+### What's in this app:
+- ✅ Add todo items
+- ✅ Mark todos as complete (checkmark)
+- ✅ Delete todo items
+- ✅ View total and completed todo counts
+- 📚 React Native learning guide
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### How to run:
+```bash
+npm start
+```
 
-## Join the community
+## Project Structure
 
-Join our community of developers creating universal apps.
+```
+app/
+├── (tabs)/
+│   ├── index.tsx      # Todo List screen
+│   ├── explore.tsx    # Learning guide screen
+│   └── _layout.tsx    # Tab navigation setup
+└── _layout.tsx        # Main app layout
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Learning Path
+
+1. **Start with the Todo List** - Understand basic React Native components
+2. **Read the Learning Guide** - Learn about React Native concepts
+3. **Try adding features** - Practice by adding new functionality
+4. **Explore the code** - Understand how everything works together
+
+## Next Steps
+
+After understanding this basic app, try adding:
+- Due dates for todos
+- Categories (work, personal)
+- Search functionality
+- Dark mode
+- Data persistence
+
+Happy coding! 🚀
